@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/ivUserImg"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:background="#FFFFFF"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:id="@+id/tvUsername"
+        android:layout_alignTop="@+id/ivUserImg"
+        android:layout_toRightOf="@+id/ivUserImg"
+        android:layout_toEndOf="@+id/ivUserImg"
+        android:maxLines="1"
+        android:textStyle="bold"
+        android:textSize="13sp"
+        android:textColor="#000"
+        android:background="#FFFFFF"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text"
+        android:id="@+id/tvBody"
+        android:layout_below="@+id/tvUsername"
+        android:layout_alignBottom="@+id/ivUserImg"
+        android:layout_toRightOf="@+id/ivUserImg"
+        android:layout_toEndOf="@+id/ivUserImg"
+        android:textSize="12sp"
+        android:background="#FFFFFF"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:id="@+id/tvCreatedAt"
+        android:layout_alignTop="@+id/tvUsername"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:maxLines="1"
+        android:textSize="13sp"
+        android:background="#FFFFFF"/>
+</RelativeLayout>

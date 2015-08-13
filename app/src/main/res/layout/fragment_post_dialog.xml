@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:inputType="textMultiLine"
+        android:id="@+id/etPostBody"
+        android:textSize="12sp"
+        android:gravity="top"
+        android:layout_weight="1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:id="@+id/btnPost"
+        android:text="@string/btn_post"
+        android:textSize="12sp"
+        android:padding="0dp"
+        android:layout_below="@+id/etPostBody"
+        android:layout_alignParentRight="true"
+        />
+</RelativeLayout>

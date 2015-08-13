@@ -1,0 +1,11 @@
+/Users/cloeliu/AndroidStudioProjects/android-rest-client-template-master/app/build/intermediates/classes/debug
+/Users/cloeliu/AndroidStudioProjects/android-rest-client-template-master/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-1e88a262454fe5a2ff86517c88ea4b1ed4a64716.jar
+/Users/cloeliu/AndroidStudioProjects/android-rest-client-template-master/app/build/intermediates/pre-dexed/debug/codepath-utils-aa98bd0f72de743a07de449192a1767734901935.jar
+/Users/cloeliu/AndroidStudioProjects/android-rest-client-template-master/app/build/intermediates/pre-dexed/debug/codepath-oauth-0.4.1-7ffbb831b4afefb0afadf21f47e81303d8b7ff08.jar
+/Users/cloeliu/AndroidStudioProjects/android-rest-client-template-master/app/build/intermediates/pre-dexed/debug/activeandroid-3.1.0-SNAPSHOT-be963cd93aa2a4983f84738b0feb37d7ac363af1.jar
+/Users/cloeliu/AndroidStudioProjects/android-rest-client-template-master/app/build/intermediates/pre-dexed/debug/scribe-codepath-0.0.3-2bef4fcd2b068cd30dec458fafec95c6fea37acb.jar
+/Users/cloeliu/AndroidStudioProjects/android-rest-client-template-master/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.6-84b60a73a45b6ce63fc93af0ee22556945b607ab.jar
+/Users/cloeliu/AndroidStudioProjects/android-rest-client-template-master/app/build/intermediates/pre-dexed/debug/picasso-2.4.0-50625b69c2e264569fd5923e074e88390c46ceba.jar
+/Users/cloeliu/AndroidStudioProjects/android-rest-client-template-master/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-b5669b51b726ff22439e48a6c7252a356d2eda77.jar
+/Users/cloeliu/AndroidStudioProjects/android-rest-client-template-master/app/build/intermediates/pre-dexed/debug/classes-6205ca795dd48ce43cd603580169636e83e8e6fb.jar
+/Users/cloeliu/AndroidStudioProjects/android-rest-client-template-master/app/build/intermediates/pre-dexed/debug/classes-04149beab35974a1b4ec846bfed34aa2ef6eab68.jar
