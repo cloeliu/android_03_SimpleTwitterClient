@@ -28,6 +28,8 @@ public class TwitterClient extends OAuthBaseClient {
 	public static final String REST_CONSUMER_SECRET = "fYdZs9Q8KsWl1GCwcV4ii5HYNtQSThwJu4BjlKeRCvArZVgM52"; // Change this
 	public static final String REST_CALLBACK_URL = "oauth://cloetweet"; // Change this (here and in manifest)
 
+	private final int DEFAULT_COUNT = 25;
+
 	public TwitterClient(Context context) {
 		super(context, REST_API_CLASS, REST_URL, REST_CONSUMER_KEY, REST_CONSUMER_SECRET, REST_CALLBACK_URL);
 	}
@@ -52,10 +54,45 @@ public class TwitterClient extends OAuthBaseClient {
 		client.get(apiUrl, params, handler);
 	}
 
+	public void getMentionsTimeline(final long maxId, final int count, AsyncHttpResponseHandler handler) {
+		String apiUrl = getApiUrl("statuses/mentions_timeline.json");
+		RequestParams params = new RequestParams();
+		params.put("count", count);
+		params.put("since_id", 1);
+		if(maxId > 0) {
+			params.put("max_id", maxId);
+		}
+		client.get(apiUrl, params, handler);
+	}
+
 	public void postStatusUpdate(final String body, AsyncHttpResponseHandler handler) {
 		String apiUrl = getApiUrl("statuses/update.json");
 		RequestParams params = new RequestParams();
 		params.put("status", body);
 		client.post(apiUrl, params, handler);
+	}
+
+	public void getUserTimeline(final long maxId, final int count, String screenName, AsyncHttpResponseHandler handler) {
+		String apiUrl = getApiUrl("statuses/user_timeline.json");
+		RequestParams params = new RequestParams();
+		params.put("count", DEFAULT_COUNT);
+		params.put("since_id", 1);
+		if(maxId > 0) {
+			params.put("max_id", maxId);
+		}
+		params.put("screen_name", screenName);
+		client.get(apiUrl, params, handler);
+	}
+
+	public void getUserInfo(AsyncHttpResponseHandler handler) {
+		String apiUrl = getApiUrl("account/verify_credentials.json");
+		client.get(apiUrl, null, handler);
+	}
+
+	public void getUserLookup(String screenName, AsyncHttpResponseHandler handler) {
+		String apiUrl = getApiUrl("users/lookup.json");
+		RequestParams params = new RequestParams();
+		params.put("screen_name", screenName);
+		client.get(apiUrl, params, handler);
 	}
 }

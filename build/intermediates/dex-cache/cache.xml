@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/cloeliu/AndroidStudioProjects/android-rest-client-template-master/app/libs/codepath-utils.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="10901a5ef726eacf1b2443b7f38dc4cc9cd3f7d4">
+        <dex dex="/Users/cloeliu/AndroidStudioProjects/android-rest-client-template-master/app/build/intermediates/pre-dexed/debug/codepath-utils-aa98bd0f72de743a07de449192a1767734901935.jar" />
+    </item>
+    <item
+        jar="/Users/cloeliu/AndroidStudioProjects/android-rest-client-template-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="/Users/cloeliu/AndroidStudioProjects/android-rest-client-template-master/app/build/intermediates/pre-dexed/debug/classes-04149beab35974a1b4ec846bfed34aa2ef6eab68.jar" />
+    </item>
+    <item
+        jar="/Users/cloeliu/AndroidStudioProjects/android-rest-client-template-master/app/libs/codepath-oauth-0.4.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e2bf2d92cfe90d44287c510d955d0c979631e99e">
+        <dex dex="/Users/cloeliu/AndroidStudioProjects/android-rest-client-template-master/app/build/intermediates/pre-dexed/debug/codepath-oauth-0.4.1-7ffbb831b4afefb0afadf21f47e81303d8b7ff08.jar" />
+    </item>
+    <item
+        jar="/Users/cloeliu/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.4.0/f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2/picasso-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="/Users/cloeliu/AndroidStudioProjects/android-rest-client-template-master/app/build/intermediates/pre-dexed/debug/picasso-2.4.0-50625b69c2e264569fd5923e074e88390c46ceba.jar" />
+    </item>
+    <item
+        jar="/Users/cloeliu/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="/Users/cloeliu/AndroidStudioProjects/android-rest-client-template-master/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-1e88a262454fe5a2ff86517c88ea4b1ed4a64716.jar" />
+    </item>
+    <item
+        jar="/Users/cloeliu/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.6/a845a88238be0b5be9d238652c1bc0605ef91f52/android-async-http-1.4.6.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a845a88238be0b5be9d238652c1bc0605ef91f52">
+        <dex dex="/Users/cloeliu/AndroidStudioProjects/android-rest-client-template-master/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.6-84b60a73a45b6ce63fc93af0ee22556945b607ab.jar" />
+    </item>
+    <item
+        jar="/Users/cloeliu/.gradle/caches/modules-2/files-2.1/com.michaelpardo/activeandroid/3.1.0-SNAPSHOT/4ab7b0182975bc57c49efc5e0b3baa4a10e4ec08/activeandroid-3.1.0-SNAPSHOT.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4ab7b0182975bc57c49efc5e0b3baa4a10e4ec08">
+        <dex dex="/Users/cloeliu/AndroidStudioProjects/android-rest-client-template-master/app/build/intermediates/pre-dexed/debug/activeandroid-3.1.0-SNAPSHOT-be963cd93aa2a4983f84738b0feb37d7ac363af1.jar" />
+    </item>
+    <item
+        jar="/Users/cloeliu/AndroidStudioProjects/android-rest-client-template-master/app/libs/scribe-codepath-0.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a580d06de954001f787e8d024bfcf931fe30bdda">
+        <dex dex="/Users/cloeliu/AndroidStudioProjects/android-rest-client-template-master/app/build/intermediates/pre-dexed/debug/scribe-codepath-0.0.3-2bef4fcd2b068cd30dec458fafec95c6fea37acb.jar" />
+    </item>
+    <item
+        jar="/Users/cloeliu/AndroidStudioProjects/android-rest-client-template-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="95fd37732ec852e99f07eeb516a3650172f1d136">
+        <dex dex="/Users/cloeliu/AndroidStudioProjects/android-rest-client-template-master/app/build/intermediates/pre-dexed/debug/classes-6205ca795dd48ce43cd603580169636e83e8e6fb.jar" />
+    </item>
+    <item
+        jar="/Users/cloeliu/AndroidStudioProjects/android-rest-client-template-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="/Users/cloeliu/AndroidStudioProjects/android-rest-client-template-master/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-b5669b51b726ff22439e48a6c7252a356d2eda77.jar" />
+    </item>
+    <item
+        jar="/Users/cloeliu/AndroidStudioProjects/android-rest-client-template-master/app/build/intermediates/exploded-aar/com.astuetz/pagerslidingtabstrip/1.0.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7912610ed96381c25c36d986eba422731b9641b6">
+        <dex dex="/Users/cloeliu/AndroidStudioProjects/android-rest-client-template-master/app/build/intermediates/pre-dexed/debug/classes-04b38bda495300dd3de9fdba4a3516c906bf3b9a.jar" />
+    </item>
+
+</items>

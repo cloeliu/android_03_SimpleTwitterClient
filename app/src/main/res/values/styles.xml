@@ -15,7 +15,7 @@
     </style>
 
     <style name="TwitterActionBar" parent="AppTheme">
-        <item name="android:background">#5599FF</item>
+        <item name="android:background">#FFFFFF</item><!--5599ff-->
     </style>
 
 </resources>
